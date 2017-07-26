@@ -13,3 +13,19 @@ def sum(array)
 	end
 	return sum
 end
+def multiply(num1,num2)
+	mul=num1*num2
+	return mul
+end
+def power(base,exp)
+	num=base**exp
+	return num
+end
+def factorial(num)
+	fact=1
+	while num>1 do
+		fact*=num
+		num=num-1
+	end
+	return fact
+end
